@@ -1,0 +1,922 @@
+es:
+  not_found:
+    title: "Lo sentimos pero no hemos podido encontrar la dirección :("
+    text: "Intenta ver si hay algún error de escritura o la página se ha movido."
+  controllers:
+    updates:
+      create:
+        notice: 'Actualización perfecta!'
+  failure_title: 'Por favor, resuelva los siguientes problemas:'
+  uservoice_gadget:
+    user:
+      name: 'Usuario'
+      location: 'Ciudad / Provincia'
+      confirmed_contributions: 'Compras realizadas'
+      created_projects: 'Productos Creados'
+  site:
+    title: "La mayor WEB para compras en grup"
+    meta_title:  "%{title} · %{company_name}"
+    description: "CompraEnGrupo es una nueva forma de comprar, diferente!"
+    keywords: "Croudbuy, CompraEnGrupo, Ofertas, Demandas, Grupo"
+
+  login:
+    forgot_password:
+      welcome: 'Password Olvidado'
+      label: 'Escriba su email para cambiar el password'
+      submit: 'Cambiar'
+    registrations:
+      welcome: 'Registro'
+      password_hint: 'Mínimo 6 caracteres'
+      show_password: 'Ver password'
+    singin: "Entrar"
+    placeholder:
+      email: "Email"
+      password: "Password"
+
+  contribution_report_to_project_owner:
+    reward_description: 'Descripción de la Oferta'
+    confirmed_at: 'Pago confirmado '
+    value: 'Precio de la Oferta'
+    service_fee: 'Comisión compra'
+    user_name: 'Nombre del Comprador'
+    user_email: 'e-mail del Comprador'
+    payer_email: 'e-mail para el pago del Comprador'
+    payment_method: 'Metodo de pago'
+    address_street: 'Calle'
+    address_complement: 'Otros'
+    address_number: 'Número'
+    address_neighbourhood: 'Barrio'
+    address_city: 'Ciudad'
+    address_state: 'Provincia'
+    address_zip_code: 'CP'
+    anonymous: 'Anonimo'
+  edit_project: 'Editar Este Producto'
+  facebook_locale: 'es'
+  or: or
+  'no': "No"
+  'yes': "Si"
+  newsletter_ok_header: "Enhorabuena, Te has subscrito a al boletín!"
+  newsletter_ok_body: "Tu email está en nuestra lista, Gracias por subscribirte!"
+  newsletter_error_header: "Woops! ha habido un error."
+  newsletter_error_body: "Tu email no pudo ser añadido, por favor intenteló más tarde!"
+  newsletter_subscribe: "subscribeme"
+  views:
+    pagination:
+      next: next
+      last: last
+      truncate: "..."
+  statistics:
+    contributions:
+      subtitle: contributions
+    goal:
+      subtitle: "total de %{total}"
+  project_by: "Producto de "
+  tell_about_this_contribution: "Dile a tus amigos lo que has comprado!"
+  share_my_contributions: "Ver todos los productos comprados!"
+  tell_about_this_project: "Dile a tus amigos que productos ofertas!"
+  share_my_projects: "Ver todos mis productos!"
+  count_contributed_projects: "%{total} Productos"
+  footer:
+    titles:
+      about: "Acerca de Compra En Grupo"
+      social: "Redes sociales"
+      sitemap: "Busca"
+      newsletter: "Subscribete, para recibir nuevos productos en tu email"
+      contact: "Mantente en contacto"
+    links:
+      about: "Quienes somos"
+      faq: "Ayuda"
+      feedback: "Comentarios"
+      support: "Soporte Tecnico"
+      terms: "Condiciones"
+      privacy: "Privacidad"
+      press: "Notas de Prensa"
+      twitter: "Twitter"
+      facebook: "Facebook"
+      instagram: "Instagram"
+      github: "Github"
+      blog: "Blog"
+      contact: "Contactar"
+      recommended: "Recomendados"
+      near: "Cerca de Mí"
+      expiring: "Ultimas Horas"
+      recents: "Recientes"
+      submit: "Envía tus Productos"
+      discover: "Buscar Productos"
+    texts:
+      copyleft: "Hechos con Amor."
+  main:
+    banner: "Descubre la Investigación"
+    links:
+      channels: "Descubre el canal ASAS"
+      recommended: "Descubre Productos Recomendados"
+      expiring: "Descubre Productos en Ultimas Horas"
+      recents: "Descubre Productos Recientes"
+      near: "Descubre Productos Cerca de Tí"
+  sidebar:
+    titles:
+      blog: blog
+      facebook: "Nos has agregado a Facebook?"
+      newsletter: "Subscribete a nuestras noticias"
+      faq: "Tienes Dudas?"
+      schedule: calendar
+    placeholders:
+      email: "Escribe tu email"
+    buttons:
+      newsletter: Enviar
+  sections:
+    near:
+      title: Cerca de Mí
+    recommended:
+      title: Recomendados
+    expiring:
+      title: Ultimas Horas
+    recents:
+      title: Recientes
+    channels:
+      title: "Canal Asas"
+  accept_terms_html: "He leido y acepto %{link}."
+  activerecord:
+    errors:
+      models:
+        project:
+          attributes:
+            permalink:
+              invalid: "Link Permanente de la Oferta no Válido"
+    attributes:
+      unsubscribe:
+        update: "Productos Recientemente Modificados"
+      contribution:
+        value: Valor
+      project:
+        category: Categoria
+        expires_at: Hora de finalización
+        online_days: Dias activo
+        headline: Título de Cabecera
+        image_url: "Link a una imagen"
+        name: Nombre
+        user_id: "ID de Usuario"
+        video_url: "Link a un video"
+        permalink: 'Link del producto'
+        how_know: "¿Cómo nos conociste?"
+        more_links: '¿Donde podemos saber más sobre tu producto?'
+      reward:
+        description: Descripción
+        maximum_contributions: "Número máximo de unidades"
+        minimum_value: "Precio Mínimo"
+      user:
+        address_city: Ciudad
+        address_complement: Dirección
+        address_neighbourhood: Dirección cont.
+        address_number: Número
+        address_state: Provincia
+        address_street: Calle
+        address_zip_code: "CP"
+        cpf: 'NIF / CIF '
+        cpf_hint_title: 'Nota Fiscal si es necesaria'
+        cpf_hint: '(?)'
+        state_inscription: 'Comunidad si es necesario'
+        moip_login: 'Usuario MoIP'
+        moip_login_hint: '(Crear una nueva Cuenta)'
+        current_password: "Clave"
+        email: Email
+        full_name: "Nombre Completo o Empresa"
+        bio: 'Mini Bio'
+        name: "Abreviado"
+        password: Clave
+        password_confirmation: "Confirmar la clave"
+        phone_number: "Número de mobil"
+        newsletter: 'Quiero recibir nuevos productos en mi email'
+    models:
+      contribution: Productos
+      category: Categorías
+      project: Producto
+      reward: Precio
+  contribution:
+    display_confirmed_at: "desde %{time_ago}"
+    reward_must_be_from_project: "Opciones dentro del mismo producto"
+    should_not_contribute_if_maximum_contributions_been_reached: "Ha llegado al máximo número de unidades"
+    value_must_be_at_least_rewards_value: "esta opción tiene un precio de %{minimum_value}"
+    project_should_be_online: "No se puede comprar el producto si aún no está online"
+  contribution_plural: Productos Comprados
+  project_plural: Productos
+  project_singular: Producto
+  contribution_singular: Producto Comprado
+  click_here: "Pulsa aquí"
+  clicking_here: "Pulsando aquí"
+  click_term: 'Condiciones'
+  comment:
+    display_time: "Hace %{time_ago}"
+  credits:
+    modal:
+      title: "confirmar la devolución del producto"
+      text: "Cómo funcionan las devoluciones:"
+      link: "Proceso de devolución"
+      reject_btn: "Quiero mantener mis créditos"
+      accept_btn: "Quiero devolver el producto"
+    index:
+      contribution_date: "Fecha de compra"
+      current_credits_html: "Tu balance son <span id=\"current_credits\">%{credits}</span> creditos."
+      important_html: "Si pides una devolución, será deducida de tus créditos."
+      project: Producto
+      refund_expiration_date_html: "Fecha final para pedir la devolución (<a target='__blank' href='http://suporte.catarse.me/knowledgebase/articles/164746-regras-e-funcionamento-dos-reembolsos-estornos'>?</a>)"
+      refunded: "Devolución realizada con éxito. Nos pondremos en contacto contigo en 2 días."
+      insufficient_credits: "No tienes suficientes créditos para completar esta devolución."
+      refunds_title: "Pagos que se pueden devolver"
+      request_refund: "Devolver"
+      requested_refund: "Pagos devueltos"
+      status: Estado
+      title: "mis créditos"
+      value: Valor
+    refund:
+      cannot_refund: "Este pago no puede ser devuelto."
+      error: "Oops. Hubo un error mientras durante su devolución."
+      no_credits: "No tiene suficiente créditos para esta devolución."
+      refunded: "Este pago ya se ha devuelto."
+      requested_refund: "Ya se a pedido la devolución de este pago."
+    title: "mis créditos"
+  curated_pages:
+    index:
+      title: "Páginas Curated"
+    show:
+      contributed: Productos comprados
+      reached: alcanzado
+  error: "Oh Oh, ha habido un error, inténtelo denuevo."
+  explore:
+    index:
+      near: 'Cercanas'
+      categories: Categorías
+      expiring: "A punto de caducar"
+      quick_explore: "Búsqueda"
+      recent: Reciente
+      recommended: Recomendada
+      subtitle: "Verdaderas compras en grupo, cuantos más seamos más barato"
+      successful: Más existosas
+      title: "La Unión hace la Fuerza"
+    title: "Busque otras ofertas"
+    project:
+      empty: "No consigo encontrar ningun producto que se asemeje, Intentalo denuevo :)!"
+  formtastic:
+    hints:
+      contribution:
+        credits: "You have <strong>%{credits}</strong> in credits and can contribution with up to this amount without needing to make a new payment."
+        value: "You chose the amount ;) starting with R$10, any amount is great."
+      project:
+        video_url_edit: 'Paste here the URL of your Vimeo/Youtube video.'
+        about: "Tell us about what inspired you to come up with this project . Be objective end charming, present your readers with something that moves them while being very transparent over the expectations on your project!"
+        more_links: "Which channels will be used to spread the word about your project? List here your facebook/twitter/blog/site/ and what ever more links you have to help you"
+        category: "Before you format your project explore other (successful) projects to inspire yourself!"
+        expires_at: "Finally, choose how long you want your campaign to last. Again, this is a strategic choice: if you put a lot of time, people will lose interest along the way; if put too little, you may not reach the minimum in time."
+        online_days: "Finally, choose how long you want your campaign to last. Again, this is a strategic choice: if you put a lot of time, people will lose interest along the way; if put too little, you may not reach the minimum in time."
+        goal: "Values in reais (R$)"
+        first_contributions: "To reach your financial goal it’s indispensable to engage the people who are close to you and the project. So if you can list here who will be your first 20 contributions that would be a great sign ;) "
+        headline: "Summarize your project in 140 characters. This sentence will be the first contact people will have with your project, before even seeing the video. Be creative, clear and direct :)"
+        name: "Be as objective as you can. Leave explanations for the About section."
+        uploaded_image: "Upload a 512x400 image(.jpg)."
+        video_url: "Paste the URL from a <a href=\"http://vimeo.com\" target=\"_blank\">Vimeo</a> video. We recommend Vimeo because it looks better and doesn't have ads. This way, your project will look better too! <strong>Produce your video the best you can and make a video specifically for your campaign</strong>. If there is a single thing that differentiates the projects that reach the goal from the others is the video. Observe ;)"
+      reward:
+        description: "Describe your reward in a way that arouses people's interest to contribute the project. Don't be shy!"
+        maximum_contributions: "If your reward is limited, tell us the maximum contributions."
+        minimum_value: "This is the minimum amount to choose this reward."
+        days_to_delivery: "Total of days to deliver the reward."
+    labels:
+      contribution:
+        anonymous: "Quiero comprar de forma anónima."
+        credits: "Quiero usar mis créditos en esta compra."
+        reward: "Selecciona la opción de compra"
+        value: "Que opción deseas comprar?"
+      comment:
+        comment: "Deja un comentario acerca de este producto"
+      project:
+        more_links: "Ver productos relaccionados "
+        how_know: "¿Cómo nos conociste?"
+        headline: "Cabecera"
+        category: 'Categoría'
+        first_contributions: "Muestra tus primeros productos *"
+        about: "Acerca del producto."
+        expires_at: "¿Cúal es la fecha límite?"
+        goal: "¿Cual es el número máximo de unidades?"
+        name: "Nombre del Producto"
+        online_days: '¿Cuantos Días dura el Anuncio?'
+        video_url: Video
+        uploaded_image: "Foto del producto"
+      reward:
+        maximum_contributions: "Número máximo de unidades (opcional)"
+        days_to_delivery: "Tiempo de Entrega"
+    optional: " (opcional)"
+  found_plural: Encontrados
+  found_singular: Encontrado
+  here: Aquí
+  i_contributed: "He comprado %{name} de Compras en Grupo"
+  i_just_contributed: "Acabo de comprar %{name} de Compras en Grupo"
+  layouts:
+    login:
+      login_with_facebook: "Entra con tu cuenta de Facebook"
+      remember_me: "Recuerdamé en este ordenador."
+    header:
+      blog: Blog
+      help: Ayuda
+      signup: "Registro"
+      signin: Acceder
+      discover: Buscar Productos
+      submit: Activar Productos
+      profile: "Mi Perfil"
+      account: "Mi Cuenta"
+    user:
+      logout: Salir
+      my_credits: "Mis Créditos"
+  not_informed: "No informado"
+  notify_locale: "Hemos identificado tu idioma según tu navegador. Si prefieres otro, selecciona la bandera de la derecha."
+  on_the_spot:
+    cancel: Cancelar
+    ok: OK
+    tooltip: "Accede para editar..."
+  passwords:
+    edit:
+      label_new_password: "Nueva Clave"
+      submit: "Cambiar Clave"
+      title: "Resetear Clave"
+      site_title: "Cambio de Clave"
+      subtitle: "Has pedido cambiar tu clave. Elige la nueva clave y pulsa \"Change Password\". Si no deseas cambiarla, simplemente cancela esta página y quedará como estaba."
+    email:
+      content_html: " <p>Alquien ha pedido un link para cambiar la clave, y se puede hacer con el siguiente link.</p><p>%{link}</p><p> si no lo has pedido, simplemente ignora este email.</p><p>La clave no se cambia hasta que accedas al link.</p> "
+      title: "Como resetear la clave."
+    new:
+      submit: "Enviar instrucciones para cambiar la clave"
+      title: "¿Olvidaste la clave?"
+      site_title: "Recuperar la clave"
+  project:
+    start:
+      email_subject: "Tu producto ha sido recibido por nuestro equipo"
+      email_text: "Gracias por confiar en nosotros :)<br><br>Contestaremos en la mayor brevedad posible. <br><br>Mientras tanto puedes ver otros productos en este link (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) and - if you like any of them- contribute it! This is the way to show support for the crowdfunding culture in Brazil and to feed the ecosystem that keeps growing around Catarse.<br><br>Besides that, you will get some inspiration for your own project...<br><br>Stay tuned for updates in <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> and get some deeper knowledge about Catarse reading the posts in our <a href='%{blog}' style='color: #E75297 !important;'>blog</a>.<br><br>Cualquier otra duda contáctanos en: %{email}"
+      notification_text: "Tu producto ha sido recibido por nuestro equipo"
+    finish:
+      successful:
+        email_subject: "Hooray! El producto %{project_name} ha conseguido su objetivo!"
+        email_text: "El producto %{project_link}, ha conseguido su objetivo o/<br><br>Se han vendido,  %{project_total_contributions} unidades, un %{project_process}% del objetivo =D<br><br>El proceso de entrega varia según el producto, tenga paciencia y en breve el vendedor informará del envío<br><br>Mientras tanto porque no se lo dices a todos tus amigos?<br><br><div style='text-align:center;'>%{facebook_button}%{twitter_button}</div><br><br>Para comunicarte con el vendedor %{project_owner_name}, manda un email a %{project_owner_email}.<br><br>para cualquier otra duda accede a nuestras respuestas: <a href='http://www.catarse.me/faq' style='color: #008800';>www.catarse.me/faq</a> o manda un email a <a href='mail_to:contato@catarse.me' style='color: #008800;'>contato@catarse.me</a><br>"
+        facebook_text: "Hooray! El producto '%{name}', ha conseguido su objetivo!"
+        notification_text: "Hooray! El producto %{link} ha conseguido el número de personas deseado! Díselo a todos!"
+        reward_notification_text: "Pronto, %{link} se pondrá en contacto contigo para el envio!"
+        twitter_text: "Hooray! El producto '%{name}', que he comprado, ha conseguido su objetivo! %{short_url}"
+      unsuccessful:
+        email_subject: "El producto %{project_name} No ha llegado al número de unidades requeridas."
+        email_text: 'Desafortunadamente el producto %{project_link}, que compraste, No ha obtenido su objetivo.<br><br>Por lo que has recibido <strong>%{value}</strong> créditos para comprar otros productos. Puedes verlos en %{project_category} en %{explore_category_link}.<br><br>Si lo deseas puedes obtener la devolución pulsando %{credits_link}. Usuario %{user_provider}. Si tienes algún problema contáctanos en finanzas@catarse.me .<br><br>Para contactar con  %{project_owner_name}, manda un email a %{project_owner_email}.<br><br>Cualquier otra duda mira nuestras respuestas <a href="mail_to:contato@catarse.me" style="color: #008800;">contato@catarse.me</a>.<br>'
+        notification_text: "has recibido %{value}  creditos para comprar otros productos. Si lo prefieres, puedes obtener una devolución %{link}."
+        unsuccessful_text: "El producto %{link} al que has contribuido no llegó al objetivo, igual la próxima vez!"
+    video_regex_validation: "Sólo se aceptam vimeo urls"
+    display_status:
+      expired: Caducados
+      failed: "No llegaron al objetivo"
+      successful: Completados
+      waiting_confirmation: esperando
+      waiting_funds: esperando
+      not_reached_goal: esperando
+      reached_goal: completados
+      draft: "borrador"
+  projects:
+    send_to_analysis: 'Tu producto se envió a nuestro equipo'
+    box:
+      by: por
+      when: en
+    admin_fields:
+      title: "campos de administración"
+    contribute_project:
+      display_status:
+        reached_goal: "Este producto completó las ventas el %{date}"
+        not_reached_goal: "Este producto se completará si al menos %{goal} son vendidos antes del %{date}"
+        failed: "Este producto no llegó a %{goal} unidades antes del %{date}"
+        successful: "Este producto se completo con existon el %{date}"
+        waiting_funds: "Esperando confirmación de los pagos para saber si el producto cumplira el objetivo."
+        draft: "Este producto esta en fase de Borrador, haga cambios y publiquelo cuanto esté disponible."
+      reached_of: "Alcanzado de"
+      submit: "Unidades de este producto"
+    contributions:
+      contribution:
+        anonymous_contribution: "Venta anonima"
+        anonymous_description: "Optado to permanecer anonimo"
+        no_reward: "NO ha elegido opción"
+      review:
+        error: "Ooops. Hubo un error durante el registro, por favor intentelo denuevo."
+      show:
+        error: "Ooops. Sólo se puede acceder después de comprar un producto."
+        moip_message: "La transacción se ha “autorizado” y tu moip codigo es “%{code}″.<br>Si tienes preguntas contacta con MOIP diréctamente."
+        header_subtitle: "Sin tí esto no sería posible. Bienvenido!"
+        header_title: "Gracias! :D"
+        text_subtitle: "Diles a todos lo que has comprado"
+        recommended_projects: "Igual te encajan los siguientes productos:"
+        text_title_html: "Eres parte del grupo que ha comprado %{link}."
+        title: "Gracias"
+      checkout:
+        no_credits: "No tienes suficientes créditos para completar esta compra."
+        success: "Tu compra se ha realizado, gracias!"
+      new:
+        cannot_contribute: "No se puede comprar este producto en este momento. Por favor inténtelo con otros podructos."
+        header:
+          subtitle: "Te queda pocos pasos para comprar este producto. "
+          title: "Oohh yeah!"
+        no_reward: "Gracias, elige una opcion. "
+        submit: "Revisar y comprar"
+        title: "Producto %{name}"
+      edit:
+        brazil_address_title: 'Brazil specific?'
+        live_in_brazil: "Si no vives en España, señala esta opcion"
+        credits_notice_html: "Este producto se pagará con tus créditos. Tras confirmarlo, quedarán <strong>%{credits}</strong> créditos para otros productos."
+        error: "Ooops. ha habido un error mientras se pagaba el producto. Por favor vuelvalo a intentar."
+        international:
+          description: "Puedes usar PayPal para realizar pagos internacionales "
+          important_html: "<p> El uso de Paypal se destina principalmente a pagos internacionales. Ya que permite devolver el dinero en 60 sin costes.</p><p>Si puedes realizar el pago a través de MOIP lo recomendamos.</p><p>Si no puedes no importa, se te devolverá el dinero en caso de que la venta no se complete a tiempo. Sólo si pasa de los 60 días tendrás comisiones por transacciones internacionales, que son 5,4% + 0,60 por transacción.</p>"
+          submit: "Continuar con PayPal"
+          title: "¿Quieres hacer un pago internacional?"
+        review_with_reward_html: "El pago es de <strong>%{value}</strong> para el producto:"
+        review_without_reward_html: "El pago es de <strong>%{value}</strong> Pero tienes que elegir producto."
+        submit:
+          credits: "Confirmar"
+          moip: "COntinua con MoIP"
+        subtitle: "Último paso para comprar el producto."
+        title: "Rellena y revisa los datos"
+        choose_payment: "¿Como desea pagar?"
+        choose_payment_subtitle: "Seleccione un modo de pago"
+        choose_credit_card: "PayPal"
+        choose_boleto: "Pay Brazil.???"
+        you_are_about_html: "Estas a punto de comprar %{link}."
+        pay_with: "Pagar con"
+    create:
+      success: "Tu producto se ha creado correctamente! Te responderemos en breve. Gracias!"
+    update:
+      success: "Modificado"
+    form:
+      permalink_hint: 'Simplifica la URL de tu producto. Piensa que los compradores tienen que recordarla para publicarla.'
+      add_reward: "Add Sell Option"
+      important_html: "Por favor recuerda que compras en grupo cobra una comision del 5% (incluye comision de pagos con tarjeta) si se venden los productos. Recuerda añadir estos costes al precio."
+      project_warning:
+        content_html: "¿Quieres que tu producto sea elegido? No olvides leer esto %{link}."
+        help_link: "Nuetra guia"
+      rewards_description: "Creemos que la mejor forma de inspirar confianza en la gente es con varias opciones de compra, donde el precio disminuye cuantas más unidades se vendan."
+      rewards_title: Opciones de compra
+      submit: "Guardar borrador"
+    index_header:
+      subtitle: "Participa en las compras en grupo, se parte de algo grande. Promueve estas compras te necesitamos!."
+      subtitle_html: "Participa en las compras en grupo, se parte de algo grande.<br/>Promueve estas compras te necesitamos!."
+      title: "Cuantos más se vendan más barato es para todos"
+    recommended_header:
+      suggest_for_you: "Sugeridos"
+      highlight_project: "Resaltados"
+      guidelines: "Como funciona"
+      guidelines_subtitle: "Conoce Compras en Grupo"
+    pending:
+      can_finish: "¿Puede terminar?"
+      finished: ¿Terminado?
+      home_page: "¿Pagina principal?"
+      id: Id
+      name: Nombre
+      no_projects: "No se han encontrado productos."
+      order: Pedir
+      project: Producto
+      slug: Slug
+      recommended: Recomendados?
+      rejected: Rechazados?
+      submit: buscar
+      title: "Gestion de productos"
+      user: Usuario
+      visible: ¿Visible?
+    pending_contributions:
+      anonymous: ¿Anonimo?
+      confirmed: ¿Confirmado?
+      credits: "¿Créditos Usados?"
+      id: Id
+      key: Key
+      no_contributions: "No se han encontrado productos."
+      project: Producto
+      refunded: Devolución?
+      requested_refund: "Devolución pedida?"
+      reward: Opciones
+      submit: buscar
+      title: "Gestión de productos"
+      total_contributed: comprados
+      total_contributors: comprados
+      total_contributions: comprados
+      total_users: usuarios
+      user: Usuario
+      value: Valor
+    project:
+      contributed: Comprados
+      reached: alcanzados
+    project_contributions:
+      empty: "Nadie a contribuido a este proyecto aún. ¿Que tal si eres el primero?"
+      confirmed: "confirmado"
+      pending: "Pendiente"
+    project_header:
+      subtitle_html: "Un producto de %{link}"
+      without_city: "El producto está en:"
+      with_city: "Un producto en %{category_name}, en %{city}, de %{author}"
+    project_updates:
+      empty: "Este producto no tiene modificaciones. Espera y verás =D"
+      submit: "Enviar modificación"
+      comment: "Modificar texto"
+      exclusive: "Visible para compras"
+      title: "Título de la modificación"
+      destroy: "Eliminar modificaciones"
+      destroy_confirmation: "¿Quieres eliminar la modificación?"
+      warning: 'Recuerda que cualquier modificación se envia a todos los compradores actuales.'
+    rewards:
+      reward_title: "Minimo %{minimum} de unidades o más"
+      reward_deliver_time: "Entrega estimada: %{estimate}"
+      contributions_to_confirm:
+        one:  "una comrpa que confirmar."
+        other: "%{count} unidades que comprar."
+      title: "Participa y recibiras..."
+    send_mail:
+      success: "Tu producto se ha enviado! contactaremos en breve, gracias!"
+    show:
+      rejected: "Este proyecto no sigue las normas de  <a href='https://docs.google.com/document/d/1Heh9LlvoSoD0lUfbmV5WlISJ3nqmGpEQiw15TBuCn-0/edit' target='_blank'>.</a>"
+      waiting: "Este proyecto estás siendo revisado por nuestro equipo ;)"
+      waiting_owner: "Para editar la información del producto, haga click en 'Editar producto'. Las opciones de venta se pueden cambiar en la correspondiente pestaña."
+      about_title: "Acerca de este producto"
+      no_rewards_warning_title: 'Crear aqui las opciones de compra'
+      no_rewards_warning: "Incluye los costes de envio y comisiones. La gente confia en tus productos no les defraudes!"
+      reports:
+        no_contributions: "No hay ventas en este producto aún."
+        link_reports: 'Descargar informe '
+        all_contributions: 'todas las ventas'
+        all_contributions_without_reward: "Todas las ventas minimas"
+        link_reward: 'Descargar las ventas de la opción'
+      menu:
+        about: AcercaDe
+        contributions: Productos
+        comments: Comentarios
+        updates: Modificaciones
+        edit: Editar
+        reports: Informes
+        add_reward: 'Añadir Opciones de Venta'
+      share:
+        embed: embed
+        embed_title: "Publica este producto en tu página web y consigue bajar el precio"
+        link: Enlace
+        link_title: "Comparte el enlace"
+        take_a_look: "Echalé un vistazo al producto"
+        title: "Se parte de este producto y compartelo con tus amigos"
+    new:
+      legend_html: "Después de rellenar el formulario, recibiras un producto en modo borrador. En este draft podrás añadir las opciones de venta. También lo puedes compartir con tus amigos para que lo revisen.<br><br>La información no es definitiva, Per recuerda que cuanto mas conciso seas mas pronto se publicará.<br><br><b>Importante:</b> <i>Nosotros revisaremos si el producto cumple con las condiciones de publicación y si se puede vender realmente. Si no cumple con las condiciones <a href='https://docs.google.com/a/catarse.me/document/d/1wLDS2lphQ6monovg9rEaTIDcxBD3FRZV9dfGKmajyj8/edit' target='_blank' ></a>, puede ser rechazado.</i>"
+      permalink_important: 'no uses lineas bajas o lineas.'
+      permalink_hint: 'Usa un nombre Sencillo. Para que los compradores puedan recordarlo;)'
+      name_important: "No usar mas de 50 caracteres"
+      online_days_important: "60 días máximo"
+      about_important: "No lo hagas muy extenso, indica enlaces para que la gente averigue más sobre el producto"
+      important_html: 'Recuerda que compra en grupo cobra el 5% de cada venta en concepto de pago con tarjeta y administración, no olvides añadirlo al precio del producto.'
+      send_project: "Quiero enviar mi producto."
+      video_important: "El video debe estar cargado en VIMEO o YOUTUBE, pon aquí únicamente el enlace"
+      more_links_important: "Es muy importante que le digas a todo el mundo de la disponibilidad de este producto, cuantas más personas consigas que compren más opciones de que se complete la oferta"
+      first_contributions_important: "Estas personas son muy importantes para este producto."
+      how_know_important: "Hurra!, ya hemos llegado a la última pregunta."
+      headline_important: "Descripción del producto,  Máximo 140 caracteres! :D"
+      tags_important: "Mira otros productos en esta categoría  <a href='%{href}' target='_blank'>aqui!</a>!."
+      subtitle: "Es hora de publicar una oferta! Dinos que es lo que tienes..."
+      title: "Publica la Oferta"
+      about: "Explica el producto y cuantos puedes vender"
+      category: "Categoría del producto"
+      how_much_you_need: "Cuantos quieres vender?"
+      about_hint: "Dinos que producto quieres vender, cuantos puedes vender. Se concreto, pero no olvides de atraer a los compradores con una buena oferta!"
+      contact: "Déjanos un email para que podamos contactarte"
+      links: "Donde podemos encontrar más información sobre tí y tu producto?"
+      links_hint: "Déjaos tantos links como tengas, Así podemos entender tu producto mejore. Cualquier información que consideres útil."
+      video: "Ya hay un video para este proudcto?"
+      video_hint: " enlace de Vimeo o Youtube"
+      twitter: "Tienes Twitter?"
+      facebook: "Tienes Facebook?"
+      blog: "Tienes un blog sobre este producto?"
+      know_us_via: "Como nos conociste?"
+      how_works: "Como conseguir mas compradores?"
+      project_warning:
+        content_html: "Quieres que tu producto lo elijan? No olvides leer esto %{link}."
+        help_link: "Nuestra guía"
+      rewards: "Que opciones de compra te gustaría ofrecer?"
+      rewards_hint: "Ofrece alternativas de compra, mejora la oferta cuantas más unidades se vendan."
+      submit: "Salvar borrador"
+      subtitle: "Es hora de vender! Nos gustaría saber que ofertas puedes proponer..."
+      title: "Enviar producto"
+    twitter:
+      take_a_look: "Mira el producto %{name} en @compras en group"
+    video_embed:
+      a_project_by_html: "Producto %{link} "
+  projects_mailer:
+    start_project_email:
+      subject: "Producto %{name}"
+      subject_html: "Producto ofertado por %{link}"
+
+  channels:
+    subscribed: "+ %{count} Seguidores"
+    header:
+      submit: "Enviar producto"
+      how_works: "Como funciona"
+      what_is_channel: "Que es un canal?"
+      contact: "Contactar"
+      profile: "Mi Información"
+      my_credits: "Mis Créditos"
+      logout: "Salir"
+      signup: "Acceder"
+      signin: "Registrarse"
+    footer:
+      terms: "Claúsulas"
+      privacy_policy: "Privacidad"
+      how_works: "Como funciona"
+      contact: "Contactar"
+      what_is_channel: "¿Que es un canal?"
+    admin:
+      statistics:
+        title: "Sequidores"
+        download: "Descargar una lista"
+      management:
+        title: "Gestión"
+        total: "Productos"
+      filter:
+        title: "Filtrar"
+        by_id: "Según ID"
+        between_created_at: "Creado entre"
+        pg_search: "Producto"
+        with_state: "Estado"
+        user_name_contains: "Usuario"
+        order_table: "Ordenar la tabla"
+        submit: "Filtrar"
+      table:
+        name: "Título"
+        category: "Categoria"
+        user_id: "Usuario"
+        goal: "Objetivo"
+        pledged: "Promesa"
+        total_contributions: "Compradores"
+        recommended: "Recomendados"
+        online_date: "Fecha de publicación"
+        expires_at: "Finalizado"
+        state: "Estado"
+        approve: "Aprobar"
+        reject: "Rechazar"
+        send_to_draft: "Enviar a Borradores"
+    edit: "Editar Canal"
+
+  registrations:
+    new:
+      site_title: "Acceder"
+      submit: "Acceder"
+      title: "Acceder con tu email"
+  remaining_plural: quedan
+  remaining_singular: queda
+  remove: eliminar
+  require_admin: "Sólo el administrador puede hacer esto."
+  require_login: "Debes estar registrado para poder ahcer esto."
+  require_permission: "No tienes permisos para hacer esto."
+  reward:
+    display_remaining: "%{remaining} de %{maximum} Disponible"
+    dont_want: "XXX TODO XXX"
+    limited: Limitado
+    sold_out: "Vendido"
+  sessions:
+    auth:
+      success: "Bienvenido, has entrado en compra en grupo, %{name}!"
+    destroy:
+      success: "Has salido. Hasta pronto!"
+    failure:
+      error: "Ha habido un error al entrar, inténtalo de nuevo."
+
+
+  static:
+    guidelines_contributions:
+      title: "quiero comprar un producto!"
+      subtitle: "Cómo comprar un producto, paso a paso."
+      introduction: "Compra en grupo es una forma excepcional de conseguir productos con grandes descuentos"
+      legend_html: "Compras en grupo te permiten comprar productos con grandes descuentos, la unión hace el descuento."
+      title_one: "Buscar productos"
+      step_one: "Examina el producto, mira la descripción y el precio y si te interesa, cómpralo al precio al que mejor te adaptes!"
+      title_two: "Decide que opción comprar y cuantas unidades"
+      step_two: "Elige que grupo de compra te interesaría, si elijes el que requiere menos gente es bastante seguro que consigas el producto a ese precio, pero si se llega a los otros grupos el precio que tu pagues será el del grupo conseguido."
+      title_three: "Finalizar la compra"
+      step_three: "Rellena tu información, revisala y elige el método de pago."
+      title_four: "Díselo a todo el mundo!"
+      step_four: "La mejor forma de llegar al número de compras necesario es que se lo digas a cuantos más amigos mejor, la unión hace el descuento."
+      title_requirements: "Recuerda en compras en grupo es “todo o nada”"
+      successful_title: "Si el producto consigue o supera el objetivo ..."
+      successful: "El producto se vende, el vendedor recibe el dinero y envía los productos."
+      not_success_title: "Si el producto no consigue el número de compradores ..."
+      not_success: "recibirás el dinero de la compra en creditos para otras compras. Si lo que deseas es tu dinero mira las condiciones <a href='%{terms}' target='_blank'>condiciones de uso</a>."
+      title_not_funded: "Si el producto no llega a su objetivo como uso los créditos conseguidos?"
+      not_funded: "Recibirás créditos en Compras en Grupo, cuando quieras los puedes usar para comprar otros productos."
+      more_questions: "Me muero por comprar, ¿que más debo saber?"
+      title_contribution: "¿Como se que mi compra se ha producido?"
+      contribution: "Recibirás un email cuando te inscribas a un producto, y otro email cuando el producto llegue al número de compradores necesario."
+      title_rewards: "¿Si el producto llega a los objetivos como recibiré el producto?"
+      rewards: "El vendedor es responsable de enviar los productos a la dirección proporcionada, el pago no se libera hasta que el producto es enviado y recibido por el comprador, si hubiese algún problema no dudes en contactarnos"
+      title_credits: "¿Si el producto no se vende como uso mis créditos?"
+      credits: "Los créditos apareceran en tu cuenta, y podrás usarlos en comprar cualquier otro producto o pedir que se te devuelvan."
+      title_money: "¿Qué ocurre si no quiero usar mis créditos?"
+      money: "Nada! a través de tu cuenta puedes elegir cangear tus créditos y te serán devueltos en la tarjeta de crédito o tu cuenta Paypal."
+      other_contributions: "Quiero más ¿como puedo ayudar?"
+      intro: "Busca formas de ofertar productos tú mismo es fácil, divertido y te puedes beneficiar económicamente"
+      other_one: "Traete amigos para que compren el mismo producto que tú y llegar antes al objetivo"
+      other_two: "Díselo a todo el mundo, y verás como se llega antes al objetivo del producto."
+      other_three: "¿Tienes algún amigo periodista?, pídele que hable de esta magnifica web en su blog, y las ventajas para compradores y vendedores."
+      other_four: "Haz un video para contribuir a expandir el número de usuarios en compras en grupo"
+      other_five: "Mándale un email al vendedor con cualquier pregunta que te pueda surgir"
+      submit: "Genial!"
+      send_project: "Quiero Ofertar un producto "
+      explore_curious: "Me apunto uno!"
+      explore_projects: "Quiero comprar"
+    guidelines:
+      title: "Como funciona"
+      subtitle: "Entra y conócenos."
+      introduction_html: "Compras en grupo es un sitio que permite a personas comprar productos al por mayor con grandes descuentos."
+      legend_html: "Creemos que la mejor forma de comprar es unirse con otras personas que quieran lo mismo y hacer fuerza en grupo para conseguir descuentos. <br><br>  "
+      submit: "Ofertar un Producto"
+      send_project: "Explicación de como hacer ofertas"
+      explore_curious: "Inscribiendose en ofertas"
+      explore_projects: "Entiende como comprar un producto"
+    about:
+      title: "¿Quienes somos?"
+      subtitle: "Conocenos"
+      introduction: "¿Quienes son? ¿Que comen? ¿Como se conectan? Todo ello en... ¿Quienes somos?."
+      name_one: "Alfonso Alonso"
+      title_one: "El buscador de Rubies"
+      text_one: "Ignacio Miranda Gonzalez, el hablador."
+      name_two: "----"
+      title_two: "Philosopher "
+      text_two: "  ---- "
+      name_three: "----"
+      title_three: "Marketing"
+      text_three: "___"
+      name_four: "---"
+      title_four: "--- "
+      text_four: "...."
+      name_five: "...."
+      title_five: "...."
+      text_five: "...."
+      name_six: "...."
+      title_six: "...."
+      text_six: "...."
+      name_seven: "...."
+      title_seven: "...."
+      text_seven: "...."
+      name_eight: "...."
+      title_eight: "...."
+      text_eight: "...."
+      name_nine: "...."
+      title_nine: "...."
+      text_nine: "...."
+    faq:
+      title: "Preguntas Frequentes"
+    guidelines_start:
+      accept: "Entiendo como funciona Compras en Grupo."
+      explore_curious: "Simplemente echando un vistazo!"
+      explore_projects: "Quiero buscar Ofertas."
+      submit: "Continuar!"
+      send_project: "Quiero enviar mi oferta."
+      subtitle: "Explicación de como vender un producto a través de esta web."
+      title: "¿Cómo funcionamos?"
+      introduction: "Esta web te permitirá comprar con grandes descuentos."
+      legend_html: "Usa esta guía para saber si este es el lugar adecuado para tus ofertas."
+      title_one: "Enviar oferta"
+      step_one: "Queremos que publiques tantas ofertas como puedas servir, si necesitas ayuda no dudes en contactarnos."
+      title_two: "Revisión"
+      step_two: "Una vez que recibamos tu propuesta, la estudiaremos para ayudarte a buscar la mejor forma de captar compradores, también filtramos esas ofertas que no tengan sentido ;)"
+      title_three: "¿Publiquemos esta oferta!?"
+      step_three: "Cuando tu oferta sea publicada, es momento de que captes a cuantos compradores puedas, cuanto mas publiques tu oferta en las redes mejor."
+      title_four: "Esto es todo o nada"
+      step_four: "Una vez que caduque la oferta si no se cumple el objetivo, todos los compradores recibiran su dinero en forma de créditos para utilizarlos en otra oferta o para recuperarlos en forma de dinero."
+      title_requirements: "Requisitos para enviar una oferta"
+      creative: "Creativo, y con gancho"
+      collective: "Varias opciones de objetivos"
+      nonprofit: "Mayor descuento cuantos mas compradores"
+      donation: "Conseguir mejores ofertas de proveedores gracias a grandes pedidos"
+      video: "haz un video"
+      more_questions: "Ok, pero cuentame más cosas..."
+      title_magic: "Nuestra fórmula mágica"
+      magic: "Donde Más es menos, consigue un mejor precio, gracias a la fuerza de un gran grupo de gente."
+      title_money: "¿Donde encontrar esos compradores?"
+      money: "Un 5=% pueden venir de tu propia red de contactos, díselo a todo el mundo y veras como se cumple el objetivo."
+      title_work: "¿Hace falta mucho trabajo?"
+      work: "Mucho! Tendras que publicar una buena oferta, conseguir buenos productos, conseguir compradores, y enviar los productos, pero seguro que es muy exitoso."
+      title_costs: "¿Cuanto cuesta usar compras en grupo?"
+      costs: "Publicar ofertas es gratis. Pero si se llega al objetivo y se vende, tenemos una comisión del 5%, que incluye la comision del pago con tarjeta de crédito."
+      why: "¿Porqué nosotros?"
+      intro: "Porque somos únicos:"
+      why_one: "No existe ningún riesgo tanto para comprador como vendedor, si no se vende se devuelve el dinero."
+      why_two: "El vendedor no corre riesgos tampoco, si no se llega al número de compradores no tiene que realizar el pedido o mantener stock."
+      why_three: "Facilitamos la publicación de las ofertas en las redes sociales para ayudar a conseguir los objetivos"
+    guidelines_tips:
+      title: "Ya casi está!"
+      subtitle: "Antes de enviar el producto, hay que considerar algunos aspectos."
+      introduction_html: "Antes de publicar un producto, hacte las siguientes preguntas."
+      legend_html: "Estas preguntas te ayudarán a estructurar tu oferta, y que tenga éxito."
+      title_one: "¿Cuales son las mejores cualidades del producto?"
+      tip_one: "¿Qué descuentos puedes conseguir si vendes cientos o miles de productos?"
+      title_two: "¿Cúal es el objetivo?"
+      tip_two: "Explica claramente cual es el beneficio que obtienen los compradores."
+      title_three: "¿Cúales son los objetivos de ventas?"
+      tip_three: "Calcula todos los costes, envio, nuestra comisión,..."
+      title_four: "¿Cuanto tiempo tienes para hacer el pedido?"
+      tip_four: "¿Cómo vas a promocionar el producto?."
+      title_five: "¿Piensa bien en las opciones de objetivos que vas a ofertar, 100, 200, 1000, 2000, 3000...?"
+      tip_five: "Recuerda que esos precios son promesas que haces publicamente, aseguraté de que puedas cumplirlas."
+      title_six: "¿Necesitas un video del producto, lo tienes preparado?"
+      tip_six: "Un video ayuda a explicar mejor el producto."
+      title_seven: "¿Cómo mobilizaras a tus amigos para que te ayuden a venderlo?"
+      tip_seven: "...."
+      title_eight: "...."
+      tip_eight: "Te enviaremos una página excel con la información sobre todos los compradores."
+      explore_curious: "Simplemente echando un ojo!"
+      explore_projects: "Quiero ver los productos."
+      submit: "Continuar!"
+      send_project: "Quiero enviar mi oferta."
+      guide: "Descarga aquí una quia para utilizar este sitio web."
+    privacy:
+      title: "Politica de privacidad"
+    terms:
+      title: "Condiciones de Uso"
+  terms: "Condiciones de Uso"
+  user:
+    contributions_text:
+      many: "Has comprado un total de %{total} ofertas"
+      one: "Has comprado un producto hasta ahora"
+      two: "Has comprado este y otro producto"
+    no_name: SinNombre
+    google_account: "Cuenta de Google"
+  users:
+    project:
+      confirmed: "Confirmado"
+      refunded: "Devuelto"
+      requested_refund: "Devolución solicitada"
+      waiting_confirmation: "Esperando confirmación"
+    set_email:
+      site_title: 'Escribe tu email'
+      title: 'Escribe tu email'
+      submit: 'Guardar mi email y continuar'
+    show:
+      attention: Atencion
+      tabs:
+        contributed_projects: "Productos comprados"
+        created_projects: "Ofertas creadas"
+        comments: Comentarios
+        credits: Créditos
+        settings: Configuración
+        unsubscribes: Notificaciones
+      user_social:
+        email: "Enviarme un email"
+        facebook: "Cuenta de Facebook"
+        twitter: "Cuenta de Twiter"
+    contributions:
+      anonymous: "Compra Anonima."
+      no_contributions: "%{name} No ha comprado nada aún pero estamos seguros de que es cuestión de tiempo! :D"
+      no_contributions_current_user_html: "No has comprado nada aún que te parece esto <a href=\"/\">starting now</a>?"
+      no_reward: "No has elegido una opción"
+      title: "Ofertas %{name} "
+      title_current_user: "Productos I´ve bought"
+      your_reward: "Objetivos"
+    unsubscribes:
+      title: "Elige de que productos quieres obtener notificaciones:"
+      updates: "Quiero notificaciones sobre productos"
+    current_user_fields:
+      bio_limit: 'Sólo 140 caracteres'
+      updated: "Tu información ha sido modificada"
+      update_social_info: "Modificar info"
+      social_info: "Información de contacto"
+      twitter: "twitter ( nombre )"
+      facebook_link: "Cuenta de facebook (full link)"
+      other_link: "Otra página web, o página web de tu tienda"
+      change_password: "Cambiar el Password"
+      current_password_hint: "<i>Necesitamos tu password actual para confirmar los cambios.</i>"
+      email_hint: "Tu email sólo se usará para comunicarte el estado de tus productos ofertados o comprados."
+      email_tooltip: "Haga click para rellenar el email..."
+      gravatar_hint_html: "Quieres cambiar tu foto? Usa %{link} Con tu email,únicamente tienes que cargar una foto y funciona en otras páginas web ;)"
+      local_avatar: "Mi avatar"
+      submit_text: "Elige tu foto"
+      submit: "Enviar"
+      my_data: "Mi Información"
+      newsletter: "quiero recibir información por email"
+      password_hint: "<i>Déjalo blanco si no quieres usarlo.</i>"
+    header:
+      bio_tooltip: "Escribe aqui sobre ti..."
+      name_tooltip: "Escribe aqui tu nombre..."
+    projects:
+      no_projects: "%{name} No hemos comprado o publicado ofertas aún!"
+      no_projects_current_user_html: "No has publicado o participado en productos aún!"
+      title: "%{name} ofertas"
+      title_current_user: "Mis ofertas"
+  users_mailer:
+    notification_email:
+      alt: "Tienes que abilitar las imágenes para poder ver este email."
+      forward: "Envia a tus amigos"
+      hello: Hola
+      intro: "Recibes este mensaje porque te has inscrito en Compras en Grupo"
+      mailee: "Mensaje enviado por "
+      salutation: "Abrazos,"
+      signature: "Nuestro equipo"
+      unsubscribe: Borrarme
+      unsubscribe_long: "Si no quieres recibir estos emails"
+      weblink: "Ver online"
+      whitelist: "Añadir contacto"
+      whitelist_long: "Añadir nuestro email a tus contactos"
+  notifications:
+    contributions:
+      to_contribution:
+        subject: "Gracias, tu compra de %{project} Ha sido confirmada!"
+        text: "Enhorabuena! <br />Tu compra se ha confirmado.<br /><br />Check: %{contribution_name}<br />%{contribution_value}<br />%{reward}<br /><br />%{project_name}"
+    updates:
+      subject: "Modificacion de %{project_name} by %{project_owner}: %{update_title}"
+      text: "%{update_title}<br />%{update_text}<br />Comments? Enviar en la página del proyecto...: <a href='%{project_link}'>%{project_name}</a>."
